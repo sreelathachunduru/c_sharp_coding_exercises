@@ -15,11 +15,11 @@ namespace TechReturners.Tests
             Assert.Equal("The quick fox", Exercise001.CapitalizeWord("the quick fox"));
         }
 
-        //[Fact]
-        //public void CheckHelloAlreadyUppercase()
-        //{
-        //    Assert.Equal("Hello", Exercise001.CapitalizeWord("Hello"));        
-        //}
+        [Fact]
+        public void CheckHelloAlreadyUppercase()
+        {
+            Assert.Equal("Hello", Exercise001.CapitalizeWord("Hello"));
+        }
 
         [Fact]
         public void CheckGenerateInitials()

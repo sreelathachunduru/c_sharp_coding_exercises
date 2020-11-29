@@ -8,13 +8,13 @@ namespace TechReturners.Exercises
         public static bool IsFromManchester(Person person)
         {
             return person.Place == "Manchester";
-            throw new NotImplementedException();
+            
         }
 
         public static bool CanWatchFilm(Person person, int ageLimit)
         {
             return person.Age >= ageLimit;
-            throw new NotImplementedException();
+            
         }
     }
     public class Person
